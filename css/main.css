@@ -11,12 +11,16 @@ section {
 img {
   width: auto;
   height: auto;
-  margin-top: 350px;
-  margin-bottom: 80px;
+  padding-top: 350px;
+  padding-bottom: 80px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.center {
-  transform: translateX(25%);
+figure {
+  width: auto;
+  margin: 0 auto;
+  display: table;
 }
 
 .show {
@@ -41,12 +45,17 @@ section {
 img {
   width: auto;
   height: auto;
-  margin-top: 350px;
-  margin-bottom: 80px;
+  margin: 0 auto;
+  padding-top: 350px;
+  padding-bottom: 80px
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.center {
-  transform: translateX(100%);
+figure {
+  width: auto;
+  margin: 0 auto;
+  display: table;
 }
 
 .show {
@@ -72,12 +81,17 @@ section {
 img {
   width: auto;
   height: auto;
-  margin-top: 350px;
-  margin-bottom: 80px;
+  margin: 0 auto;
+  padding-top: 350px;
+  padding-bottom: 80px
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.center {
-  transform: translateX(100%);
+figure {
+  width: auto;
+  margin: 0 auto;
+  display: table;
 }
 
 .show {
